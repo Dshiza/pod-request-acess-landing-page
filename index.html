@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title> Pod request access landing page</title>
+</head>
+
+<body>
+  <div class="bg">
+    <header>
+      <div class="container">
+        <img src="./starter-code/assets/desktop/logo.svg" alt="pod brand logo - company">
+      </div>
+
+    </header>
+    <main>
+
+      <section>
+        <div class="container grid">
+          <h1>Publish your podcasts <span>everywhere.</span></h1>
+          <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+            Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+          <div class="available-on | flex">
+            <img src="./starter-code/assets/desktop/spotify.svg" alt="spotify logo">
+            <img src="./starter-code/assets/desktop/apple-podcast.svg" alt="apple podcast logo">
+            <img src="./starter-code/assets/desktop/google-podcasts.svg" alt="google podcast logo">
+            <img src="./starter-code/assets/desktop/pocket-casts.svg" alt="pocket-casts logo">
+          </div>
+          <form class="cta-form" action="">
+            <div class="cta">
+              <input type="email" name="email" id="email" placeholder="Email Address">
+
+              <input type="submit" onclick="ValidateEmail()" value="Request Access">
+            </div>
+          </form>
+          <p class="error">Oops! Please check your email</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
